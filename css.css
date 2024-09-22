@@ -1,0 +1,36 @@
+
+#navbar {
+    display:flex;
+    justify-content: center;
+}
+
+#navbar a {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#favorites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size: 1.8rem;
+    line-height: 1.618;
+    max-width: 100%;
+    margin: auto;
+    color: #222222;
+    background-color: #ffffff;
+    padding: 13px;
+}
+
+#favorites table {
+    width: 15em;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: #007559 solid 3px;
+}
+
+blockquote span {
+    padding-left: 50%;
+}
