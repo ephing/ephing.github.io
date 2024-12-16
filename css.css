@@ -1,4 +1,10 @@
 
+:root {
+    --gallery-gap: 1px;
+    --gallery-width: calc(100% - var(--gallery-gap));
+    --gallery-zoom: 1.069;
+}
+
 #navbar {
     display:flex;
     justify-content: center;
@@ -33,4 +39,17 @@
 
 blockquote span {
     padding-left: 50%;
+}
+
+.gallery {
+    max-width: 100%;
+    min-width: 1px;
+    width: var(--gallery-width);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+    gap: var(--gallery-gap) var(--gallery-gap);
 }
